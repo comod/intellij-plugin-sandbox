@@ -21,4 +21,14 @@
     <actions>
         <!-- Add your actions here -->
     </actions>
+
+    <application-components>
+
+        <component>
+            <!-- Plugin's application components (On Start IDE) -->
+            <implementation-class>system.ApplicationStart</implementation-class>
+        </component>
+
+    </application-components>
+
 </idea-plugin>
