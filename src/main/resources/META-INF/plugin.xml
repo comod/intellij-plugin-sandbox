@@ -15,7 +15,10 @@
     -->
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <!-- Data store (application level) -->
+        <applicationService
+            serviceImplementation="config.ApplicationConfig"
+        />
     </extensions>
 
     <actions>
