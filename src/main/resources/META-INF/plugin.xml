@@ -21,4 +21,12 @@
     <actions>
         <!-- Add your actions here -->
     </actions>
+
+    <!-- Plugin's project components -->
+    <project-components>
+        <component>
+            <implementation-class>system.ProjectStart</implementation-class>
+        </component>
+    </project-components>
+
 </idea-plugin>
