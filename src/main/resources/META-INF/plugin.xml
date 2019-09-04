@@ -15,10 +15,21 @@
     -->
 
     <extensions defaultExtensionNs="com.intellij">
+
         <!-- Data store (application level) -->
         <applicationService
             serviceImplementation="config.ApplicationConfig"
         />
+
+        <!--Data Store UI -->
+        <!--<projectConfigurable-->
+        <applicationConfigurable
+            groupId="tools"
+            displayName="My Plugin Config"
+            id="preference.MyConfigurable"
+            instance="config.Configurable"
+        />
+
     </extensions>
 
     <actions>
