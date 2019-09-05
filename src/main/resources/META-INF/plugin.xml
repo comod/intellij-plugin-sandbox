@@ -15,7 +15,12 @@
     -->
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <toolWindow
+            id="Tool Window Example"
+            secondary="true"
+            anchor="right"
+            factoryClass="ui.toolWindow.MyToolWindowFactory"
+        />
     </extensions>
 
     <actions>
